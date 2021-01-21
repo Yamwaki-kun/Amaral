@@ -80,9 +80,21 @@ ul {
 }
 
 #robot{
+    margin-top: 30px;
     width: 100%;
     height: auto;
     border-radius: 15px;
+}
+#trio{
+    width: 30%;
+    height: auto;
+}
+#trio2{
+    margin-top: 30px;
+    width: 30%;
+    height: auto;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 @media only screen and (max-width: 960px) {
