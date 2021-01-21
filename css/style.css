@@ -1,0 +1,141 @@
+html *
+{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+body {
+    margin: 5vmax 0;
+    padding: 0;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+#content {
+    margin: 0 10%;
+}
+
+#nome {
+    font-size: 4vmax;
+    letter-spacing: 0.01em;
+    line-height: 5vmax;
+}
+
+#links {
+    margin-top: 3vmax;
+    color: #E7831E;
+}
+div {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#links ul{
+    padding: 0;
+}
+#links li, #mainnav li {
+    display: inline-flex;
+}
+#links li {
+    margin: 0 2vmax;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#mainnav {
+    margin: 1vmax 0 3vmax 0;
+    margin-top: 2vmax;
+    font-size: 1vmax;
+    letter-spacing: 0.005em;
+}
+#mainnav a {
+    padding: 0 2vmax .4vmax 2vmax;
+    margin-right: 1vmax;
+}
+#art{
+    margin-top: 30px;
+}
+
+#robot{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 812px)
+and (-webkit-min-device-pixel-ratio : 2)	{
+	
+	#content {
+		margin: 0 10px;
+	}
+	
+	#name {
+		font-size: 55px;
+		/* SolidDrop */
+		text-shadow: 0 .5vmax 0 #1F3564;
+	}
+	
+	#links li {
+		margin: 0 5px;
+	}
+	
+	#links {
+		margin-top: 30px;
+	}
+	#links img {
+		width: 40px;
+		height: 40px;
+	}
+	
+	#mainnav {
+		font-size: 15px;
+	}
+	
+	#mainnav a {
+		padding: 0 10px 4px 10px;
+		margin-right: 10px;
+	}
+	
+	.note {
+		font-size: 18px;
+	}
+	#artgrid {
+		margin: 20px 0;
+	}
+	.cover {
+		margin: 0 0 10px 0;
+		height: 150px;
+		border-radius: 10px;
+	}
+	.covertall {
+		margin: 0 0 10px 0;
+		height: 200px;
+		border-radius: 10px;
+	}
+
+}
