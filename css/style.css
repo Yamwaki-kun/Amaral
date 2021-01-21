@@ -149,6 +149,19 @@ ul {
 		margin: 0 0 10px 0;
 		height: 200px;
 		border-radius: 10px;
-	}
+    }
+    
+
+    #trio{
+        width: 100%;
+        height: auto;
+    }
+    #trio2{
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 
 }
