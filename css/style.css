@@ -86,8 +86,7 @@ ul {
 }
 
 @media only screen
-and (min-device-width : 320px) 
-and (max-device-width : 600px)
+and (max-device-width : 7s00px)
 and (-webkit-min-device-pixel-ratio : 2)	{
 	#robot{
         width: 100%;
